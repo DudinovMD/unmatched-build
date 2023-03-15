@@ -18,33 +18,43 @@ canvas {
 
 
 .menu {
-  position: absolute;
-  height: 10rem;
-  width: 15rem;
-  left: 50%;
-  top: 10rem;
+    position: absolute;
+    /* height: 10rem; */
+    width: 60%;
+    left: 50%;
+    top: 10rem;
 
-  padding: 1rem;
-  border-radius: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  transform: translateX(-50%);
-  background-color: rgba(255, 255, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255);
+    font-size: 35px;
+    padding: 2rem;
 }
 
 .menu button {
-  margin-top: 1rem;
-  width: 10rem;
-  height: 2rem;
-  cursor: pointer;
-  background: white;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  border: none;
+    margin-top: 1rem;
+    width: 20rem;
+    height: 4rem;
+    cursor: pointer;
+    background: #fafafa;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: none;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+.menu button:last-child {
+    margin-bottom: 1rem;
 }
 
 .menu span {
-  font-weight: bold;
+    margin-bottom: 3rem;
+    font-weight: bold;
 }
+
